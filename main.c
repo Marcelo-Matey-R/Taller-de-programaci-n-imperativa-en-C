@@ -20,6 +20,8 @@ int main(){
     int *copy = copyArray(arr, 5);
     int copy_size = (copy == NULL) ? 0 : 5;
 
+    swap2(a, b);
+    printf("\nResultado para swap2\na = %d\nb = %d\n", a, b);
     swap(&a, &b);
     printf("\nResultados de swap\na = %d\nb = %d\n", a, b);
 
