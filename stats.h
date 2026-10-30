@@ -36,7 +36,7 @@ int calc_max(const int *arr, int size){
 
 int calc_can_neg(const int *arr, int size){
     int cnt = 0;
-    for(int i = 1; i < size; i++){
+    for(int i = 0; i < size; i++){
         int val = arr[i];
         if(val < 0){
             cnt += 1;

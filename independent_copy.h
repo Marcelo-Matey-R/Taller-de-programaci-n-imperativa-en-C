@@ -7,7 +7,7 @@ int* copyArray(const int *arr, int size){
     }
 
     if(size != 0){
-        copy_arr[0] = arr[0] * 3;
+        copy_arr[0] = arr[0];
     }
 
     for(int i = 1; i < size; i++){
